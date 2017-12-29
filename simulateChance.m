@@ -1,14 +1,14 @@
 % pconf = simulateChance(ntrials, alpha[, nsims])
 %
 %       Gives a simulated estimation of the chance level and its confidence
-%       interval for a classification accuracy, given a certain number of
+%       interval for a classifier's accuracy, given a certain number of
 %       trials per class and a significance level.
 %
 %       Based on procedure published in
 %           Mueller-Putz, G. R., Scherer, R., Brunner, C., Leeb, R., &
 %           Pfurtscheller, G. (2008). Better than random? A closer look on
 %           BCI results. International Journal of Bioelectromagnetism,
-%           10(1), 52–55.
+%           10(1), 52-55.
 %
 % In:
 %       ntrials - 1-by-n matrix containing number of trials for each class
